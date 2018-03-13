@@ -1,0 +1,8 @@
+print("welcome to John's Apple Stand")
+apples = input('How many apples would you like?')
+if int(apples)<1 :
+    print("Well, you weren't good enough for apples anyway!")
+if int(apples)>10 :
+    print("Sorry, we only have ten apples.")
+for i in range(int(apples)):
+    print(str(i)+" apple")
